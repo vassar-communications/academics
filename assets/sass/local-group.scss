@@ -22,7 +22,7 @@
 
 .vassar_plaid {
 	background-size: cover;
-	background: #ebe9e8 url(../../../assets/images/about-mission-bg.png) repeat;
+	background: #ebe9e8 url(../images/about-mission-bg.png) repeat;
 }
 
 .red_round_bg {
@@ -130,11 +130,11 @@
 	border: 1px solid tint($fontColor, 20%);
 }
 .u-lHeader {
-    background: #666 url(../../../assets/images/academics-header-bg.jpg) no-repeat center;
+    background: #666 url(../images/academics-header-bg.jpg) no-repeat center;
 	background-size: cover;
 }
 .Module__fullWidthResearch {
-    background: #666 url(../../../assets/images/academics-research-0042_12_07_MEZ_-5.jpg) no-repeat center;
+    background: #666 url(../images/academics-research-0042_12_07_MEZ_-5.jpg) no-repeat center;
 	background-size: cover;
 	color: #fff;
 }
@@ -145,12 +145,12 @@
 	@extend .vassar_plaid;
 }
 .Module__fullWidthFaculty {
-    background: #666 url(../../../assets/images/academics-faculty.jpg) no-repeat center;
+    background: #666 url(../images/academics-faculty.jpg) no-repeat center;
 	background-size: cover;
 	color: #fff;
 }
 .Module__fullWidthCalendar {
-    background: #666 url(../../../assets/images/academics-calendar-grid.jpg) no-repeat center;
+    background: #666 url(../images/academics-calendar-grid.jpg) no-repeat center;
 	background-size: cover;
 	color: #fff;
 	.Module__desc ul {
