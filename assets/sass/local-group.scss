@@ -1,7 +1,8 @@
 .Faculty,
 .Research {
-	min-height: 56rem;
 	padding: 4%;
+	background-size: contain;
+    background-position: top;
     .Row {
       margin-top: auto;
     }
@@ -23,8 +24,7 @@
 }
 .Faculty {
 	background-image:url(../images/academics-faculty.jpg);
-	background-position-y: top;
-	background-size: contain;
+	min-height: 56rem;
 }
 .Research {
 	background-image:url(../images/academics-research-0042_12_07_MEZ_-4.jpg);
