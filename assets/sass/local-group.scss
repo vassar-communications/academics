@@ -38,7 +38,7 @@
     @extend .condensed_heading;
     text-align: center;
 }
-.Module__fullWidthMajorMinor div strong {
+.Module__fullWidthMajorMinor p strong {
 	text-transform: uppercase;
 	font-family: $sans-serif-condensed;
 	font-weight: $fontWeightMedium;
@@ -75,12 +75,12 @@
 	}
 }
 @media screen {
-	.Module__fullWidthMajorMinor div strong {
+	.Module__fullWidthMajorMinor p strong {
 		display: block;
 	}
 	.Module__fullWidthResearch {
 		.Module__desc {
-			padding-bottom: 50%;
+			padding-top: 50%;
 		}
 	}
 	.Module__fullWidthFaculty {
@@ -130,11 +130,11 @@
 	border: 1px solid tint($fontColor, 20%);
 }
 .u-lHeader {
-    background: #666 url(../images/academics-header-bg.jpg) no-repeat center;
+    background: #666 url(../images/academics-header-bg-2.jpg) no-repeat center;
 	background-size: cover;
 }
 .Module__fullWidthResearch {
-    background: #666 url(../images/academics-research-0042_12_07_MEZ_-5.jpg) no-repeat center;
+    background: #666 url(../images/academics-research.jpg) no-repeat center;
 	background-size: cover;
 	color: #fff;
 }
@@ -157,8 +157,17 @@
 		@extend .red_round_bg;
 	}
 }
-.Module__fullWidthCatalogue {
-	/* background-color: tint($fontColor,5%);
-	background-image: linear-gradient(transparent 50%, rgba(135,36,67,.02) 50%);
-	background-size: 30px 30px; */
+/* temporary */
+.u-lFooter {
+    background: #882344 url(../images/global-footer-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.u-VCard--site {
+    background-color: rgba(0,0,0,0.75);
+    padding: 1%;
+    margin: 4% auto;
+	max-width: 25em;
+}
+.u-ExtendedFooter__listContainer {
+    background-color: rgba(0,0,0,0.75);
 }
