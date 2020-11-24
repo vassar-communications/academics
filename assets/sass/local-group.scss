@@ -158,6 +158,10 @@
 	}
 }
 /* temporary */
+.u-pageInner body:not(.parent-site) .u-Masthead,
+.u-thirdLevel .u-Masthead {
+    display: none;
+}
 .u-lFooter {
     background: #882344 url(../images/global-footer-bg.jpg) no-repeat center;
     background-size: cover;
