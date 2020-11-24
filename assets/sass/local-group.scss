@@ -1,34 +1,51 @@
-.Faculty,
-.Research {
-	padding: 4%;
-	background-size: contain;
-    background-position: top;
-    .Row {
-      margin-top: auto;
-    }
-}
 .Calendar{
 	background-image:url(../images/academics-calendar-grid.jpg);
+	background-position-x:center;
+	padding:8% !important;
 	text-align:center;
-	ul {
-      font-size: 85%;
-      padding-left: 0;
-	}
-	li {
-      margin-bottom:.25em;
-      list-style:none
-	}
+    ul {
+	    margin-bottom:0;
+	    padding-left:0
+    }
+    li {
+	    margin-bottom:.25em;
+	    list-style:none;
+    }
+    .Row__title {
+        text-align: center !important;
+    }
 }
 .FacilitiesResources{
-	background-color:#ebe9e8;
+	background-color:#ebe9e8
 }
-.Faculty {
-	background-image:url(../images/academics-faculty.jpg);
-	min-height: 56rem;
+.Faculty{
+	background-image:url(../images/academics-faculty.jpg)
 }
-.Research {
-	background-image:url(../images/academics-research-0042_12_07_MEZ_-4.jpg);
-	min-height: 90rem;
+.u-pageHome .majors-and-minors {
+    border: 1px solid #f9f0f3;
+	background-image: url("../images/Vassar_SparkPattern_maroon-white.png");
+    background-repeat: no-repeat;
+    padding: 2.5em 0;
+}
+@media screen and (min-width: 56.25em){
+	.Faculty .Row{
+		margin:12% auto
+	}
+}
+.Research{
+	background-image:url(../images/academics-research.jpg)
+}
+@media screen and (min-width: 56.25em){
+	.Research{
+		padding-top:25%
+	}
+}
+@supports ((-webkit-backdrop-filter: blur(0.125em)) or (backdrop-filter: blur(0.125em))){
+	.Research .Row{
+		background-color:rgba(0,0,0,0.5);
+		-webkit-backdrop-filter:blur(0.125em) grayscale(100%);
+		backdrop-filter:blur(0.125em) grayscale(100%)
+	}
 }
 .u-folderIntensives .u-pageTitle{
 	background:transparent url(../images/intensives-mark.png) no-repeat left 33%;
@@ -37,17 +54,108 @@
 }
 .u-lHeader{
 	background-image:url(../images/academics-header-bg.jpg);
-	background-position-y: bottom;
+	background-position-y:bottom
 }
-@media screen and (min-width: 56.25em){
-    .Faculty {
-        min-height: inherit;
-        background-size: cover;
-        .Row {
-          margin:12% auto;
+.Departments,
+.majors-and-minors {
+    h2{
+	    font-size:1.2em;
+	    letter-spacing:0;
+	    margin-bottom:1em;
+    }
+    h3 {
+	    font-size:1em;
+	    letter-spacing:.04em;
+	    margin:0 0 .5em;
+    }
+    li {
+        margin-bottom:.25em;
+        a:not(h3+a) {
+	        font-size:.9em
         }
     }
-    .Research{
-        min-height: 65rem;
+    ul {
+	    list-style:none;
+	    margin-top:0;
+	    padding-left:0;
     }
+}
+.Departments li:not(:first-child) h3{
+	margin-top:2em
+}
+.majors-and-minors {
+    .cols--2 {
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+        -webkit-column-gap:1em;
+        -moz-column-gap:1em;
+        column-gap:1em
+    }
+    >li:nth-child(1) h3 {
+	    margin-top:0 !important;
+    }
+    h3 {
+	    font-weight:500;
+	    line-height:1.4;
+	    margin-bottom:0 !important;
+	    margin-top:0 !important
+    }
+    li{
+        -webkit-column-break-inside:avoid;
+        -moz-column-break-inside:avoid;
+        break-inside:avoid;
+        page-break-inside:avoid
+    }
+    ul{
+        margin-bottom:.5em
+    }
+}
+.majors-and-minors .cols--2 #correlate-sequences+.cols--2 li{
+    margin-bottom:0 !important
+}
+/* For central styles jeff mac 11/16/2020 */
+.u-pageHome body:not(.parent-site) .u-Masthead__siteName--link>* {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(0px) grayscale(0%);
+    backdrop-filter: blur(0px) grayscale(0%);
+    margin: 0;
+    padding: 0;
+}
+.NavSite .u-NavSite__level.u-NavSite__level--1 {
+    border-top: solid .075em #fff;
+    padding-top: 1em !important;
+    margin-top: 0;
+    max-width: 64em;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.7em;
+    padding-bottom: 0.7em;
+}
+.u-pageInner body:not(.parent-site) .u-Masthead,
+.u-thirdLevel .u-Masthead {
+    display: none;
+}
+.u-pageInner body:not(.parent-site) .u-lHeader {
+    padding: 1.75em 5% !important;
+}
+ .u-lContent{
+	font-size:.95em
+}
+.u-lContent a:focus,.u-lContent a:hover,.u-lContent a:visited:focus,.u-lContent a:visited:hover{
+	background-color:#D0D0CE;
+	color:#63666A
+}
+.Module__title,
+main.u-lMain .Row__title,
+.parent-site .row-title {
+    text-align: left;
+}
+.u-lContent .Dark a:focus,.u-lContent .Dark a:hover,.u-lContent .Dark a:visited:focus,.u-lContent .Dark a:visited:hover,.u-lContent .Dark--scrim a:focus,.u-lContent .Dark--scrim a:hover,.u-lContent .Dark--scrim a:visited:focus,.u-lContent .Dark--scrim a:visited:hover,.u-lContent .Dark--bgScrim a:focus,.u-lContent .Dark--bgScrim a:hover,.u-lContent .Dark--bgScrim a:visited:focus,.u-lContent .Dark--bgScrim a:visited:hover,.u-lContent .galleria-desc-container a:focus,.u-lContent .galleria-desc-container a:hover,.u-lContent .galleria-desc-container a:visited:focus,.u-lContent .galleria-desc-container a:visited:hover{
+	color:#63666A;
+	background-color:#D0D0CE
+}
+.u-lFooter a:hover,.u-lFooter a:focus{
+	background-color:#D0D0CE;
+	color:#63666A
 }
