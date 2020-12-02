@@ -151,9 +151,31 @@ main.u-lMain .Row__title,
 .parent-site .row-title {
     text-align: left;
 }
-.u-lContent .Dark a:focus,.u-lContent .Dark a:hover,.u-lContent .Dark a:visited:focus,.u-lContent .Dark a:visited:hover,.u-lContent .Dark--scrim a:focus,.u-lContent .Dark--scrim a:hover,.u-lContent .Dark--scrim a:visited:focus,.u-lContent .Dark--scrim a:visited:hover,.u-lContent .Dark--bgScrim a:focus,.u-lContent .Dark--bgScrim a:hover,.u-lContent .Dark--bgScrim a:visited:focus,.u-lContent .Dark--bgScrim a:visited:hover,.u-lContent .galleria-desc-container a:focus,.u-lContent .galleria-desc-container a:hover,.u-lContent .galleria-desc-container a:visited:focus,.u-lContent .galleria-desc-container a:visited:hover{
-	color:#63666A;
-	background-color:#D0D0CE
+.u-lContent { 
+    .Dark a:focus,
+    .Dark a:hover,
+    .Dark a:visited,
+    .Dark a:visited:focus,
+    .Dark a:visited:hover,
+    .Dark--scrim a:focus,
+    .Dark--scrim a:hover,
+    .Dark--scrim a:visited,
+    .Dark--scrim a:visited:focus,
+    .Dark--scrim a:visited:hover,
+    .Dark--bgScrim a:focus,
+    .Dark--bgScrim a:hover,
+    .Dark--bgScrim a:visited,
+    .Dark--bgScrim a:visited:focus,
+    .Dark--bgScrim a:visited:hover,
+    .galleria-desc-container a:focus,
+    .galleria-desc-container a:hover,
+    .galleria-desc-container a:visited,
+    .galleria-desc-container a:visited:focus,
+    .galleria-desc-container a:visited:hover {
+	        color:#a2a6ad;
+            text-decoration-color:#a2a6ad;
+	        background-color:#D0D0CE;
+    }
 }
 .u-lFooter a:hover,.u-lFooter a:focus{
 	background-color:#D0D0CE;
