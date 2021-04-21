@@ -60,23 +60,31 @@
 	background-image:url(../images/academics-header-bg.jpg);
 	background-position-y:bottom
 }
+.u-pageInner {
+    .u-lHeader {
+        display: none;
+    }
+    .u-pageTitle {
+        padding: 1.75em 0 .15em;
+    }
+}
 .Departments,
 .majors-and-minors {
     h2{
-	    font-size:1.2em;
+	    font-size:1.5em;
 	    letter-spacing:0;
 	    margin-bottom:1em;
     }
     h3 {
-	    font-size:1em;
+	    font-size:1.1em;
 	    letter-spacing:.04em;
 	    margin:0 0 .5em;
     }
     li {
         margin-bottom:.25em;
-        a:not(h3+a) {
+        /*a:not(h3+a) {
 	        font-size:.9em
-        }
+        }*/
     }
     ul {
 	    list-style:none;
@@ -100,7 +108,7 @@
 	    margin-top:0 !important;
     }
     h3 {
-	    font-weight:500;
+	    /*font-weight:500;*/
 	    line-height:1.4;
 	    margin-bottom:0 !important;
 	    margin-top:0 !important
@@ -138,4 +146,18 @@ h2#vassardartmouth-babe,
 h2#propose-an-intensive {
     margin-top: 0;
     padding-top: 1em !important;
+}
+.Row {
+    p, ul, ol, summary {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+}
+.PageNav {
+    .Module__title {
+        font-size: .9em;
+    }
+    .Module__link {
+        padding: 0.2em 0;
+    }
 }
